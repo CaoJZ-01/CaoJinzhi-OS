@@ -30,7 +30,7 @@ asm:
 # 清理编译出的文件
 clean:
 	@cargo clean
-
+ 
 # 运行 QEMU
 qemu: build
 	@qemu-system-riscv64 \
