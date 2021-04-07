@@ -16,4 +16,5 @@ panic = "abort"
 
 [dependencies]
 riscv = {path = "src/riscv"}
+buddy_system_allocator = {path = "src/buddy_system_allocator"}
 
