@@ -17,3 +17,10 @@ rust nightly-2020-06-27
 
 ## 实验一 内核启动
 Set up develop enviroment. Print my name on QEMU(virtual machine).
+
+## 实验二 中断
+Implement system interrupt(Breakpoint interrupt, Time interrupt).
+
+## 实验三 物理内存
+#实验3.1 动态内存分配
+Dynamic memory allocation using "buddy_system_allocator".
