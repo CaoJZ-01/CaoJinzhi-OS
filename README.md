@@ -25,3 +25,7 @@ Implement system interrupt(Breakpoint interrupt, Time interrupt).
 #实验3.1 动态内存分配
 
 Dynamic memory allocation using "buddy_system_allocator".
+
+#实验3.2 物理内存管理
+
+Physical memory management(frame/page).
