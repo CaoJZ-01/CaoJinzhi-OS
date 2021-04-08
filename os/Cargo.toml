@@ -15,6 +15,9 @@ panic = "abort"
 panic = "abort"
 
 [dependencies]
-riscv = {path = "src/riscv"}
-buddy_system_allocator = {path = "src/buddy_system_allocator"}
+algorithm = { path = "src/algorithm" }
+riscv = {git = "https://github.com/rust-embedded/riscv", features = ["inline-asm"] }
+buddy_system_allocator = "0.4.0"
+lazy_static = { version = "1.4.0", features = ["spin_no_std"] }
+spin = "0.5.2"
 
